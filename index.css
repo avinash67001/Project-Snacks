@@ -1,0 +1,232 @@
+/* Home Page */
+
+.bg{
+	background-color:  #F6F1EE;
+}
+
+
+.logo{
+	width: 6%;
+	margin-right: 8%;
+	
+}
+
+.active{
+	color:#FF0000 !important;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+	font-size:20px;
+}
+
+li> a:hover{
+	color:#0000FF !important;
+}
+
+.img{
+	width: 100% !important;
+	height: 850px;
+	display: block;
+}
+
+.heading{
+	position: absolute;
+	top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  padding: 1%;
+  text-align: center;	 
+}
+
+.about_us{
+	border: 5px solid red;
+}
+
+.about_img{
+	width: 60%;
+	margin-left: 30%;
+	
+}
+
+.about_img1{
+	width: 60%;
+	margin-left: 30%;
+	margin-top: 17%;
+}
+
+.food1 , .food2 , .food3{
+	width:60%;
+	margin-left: 15%;	
+	margin-top: 5%;
+	border-radius: 50px;
+}
+
+.first_item , .second_item , .third_item{
+    
+    /*margin-right: 10%*/
+    margin-left: 5%;
+}
+
+.btn-1{
+	margin-left: 45%;
+	margin-top: 2%;
+}
+
+.form{
+	/*width:15%;*/
+	margin-top: 2%;
+	margin-left: 6%;
+	font-size: 150%;
+	border:2px solid ;
+
+}
+
+.textarea{
+	width:88%;
+	margin-top: 2%;
+	margin-left: 6%;
+	border:2px solid ;
+	font-size: 150%;
+	
+}
+
+.btn-2{
+	margin-left: 45%;
+	margin-top: 2%;
+}
+
+
+
+
+.footer{
+	background-image: url("images/footer.png");
+	background-repeat: none;
+	background-size: cover;
+	color:#FFFFFF;
+
+}
+
+h1{
+    font-family:  "Times New Roman", Times, serif;
+}
+
+
+
+h3{
+    font-family: Impact, fantasy;
+}
+
+/* MENU PAGE */
+
+
+
+table, th, td {
+  border: 5px solid black;
+}
+th {
+  height: 70px;
+}
+
+table{
+	margin-left: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+
+
+#t2{
+	background-color: black;
+	color: white;
+}
+
+.btn-3{
+	margin-left: 45%;
+	margin-top: 2%;
+}
+
+/* BOOKING */
+
+.book-para{
+	color: #AC322C;
+	font-size: 140%;	
+}
+
+.input{
+	font-size: 150%;
+}
+
+.input-container{
+	display: flex;
+
+  margin-bottom: 5%;
+  margin-left: 30%;
+}
+
+.icon{
+      padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+
+
+.book-btn{
+	margin-left: 40%;
+
+}
+
+.heading1{
+	position: absolute;
+	top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  padding: 1%;
+  text-align: center;	
+  color: #ffffff; 
+}
+/*Contact us */
+.form-input{
+	font-size: 150%;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.textarea1{
+	width:80%;
+	padding-bottom: 15%;
+	margin-left: 10%;
+
+}
+
+.label{
+	font-size: 130%;
+	margin-left: 10%;
+}
+
+.contact-icon{
+     text-align: center;
+     font-size: 300%;
+}
+
+.card-body > span{
+	font-size: 132%;
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+	.map{
+		float: right;
+	}
+}
+
+.contact-btn{
+	margin-left: 40%;
+}
